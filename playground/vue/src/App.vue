@@ -1,9 +1,11 @@
 <template>
-  
+  <div>{{ count }}</div>
+  <div>{{ count }}</div>
 </template>
 
-<script setup>
-import {} from "vue"
+<script setup lang="ts">
+import { ref } from 'vue'
+const count = ref(0)
 
 </script>
 

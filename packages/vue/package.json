@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "眼圈发黑 <1449826851@qq.com>",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-vue": "^9.0.1",
@@ -16,6 +21,6 @@
     "eslint": "^8.16.0"
   },
   "peerDependencies": {
-    "eslint": "^8.16.0"
+    "eslint": ">=6.0.0"
   }
 }

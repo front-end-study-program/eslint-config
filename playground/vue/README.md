@@ -1,2 +1,3 @@
 # eslint-config-vue-playground
-通过 pnpm link ../../packages/vue 来验证配置
+
+验证 vue3 + typescript 的规则练习场
