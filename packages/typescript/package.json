@@ -1,0 +1,24 @@
+{
+  "name": "@sea/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "eslint rules for typescript",
+  "main": "index.js",
+  "keywords": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "author": "眼圈发黑 <1449826851@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.0.0",
+    "typescript": ">=2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
+}

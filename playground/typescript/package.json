@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@sea/eslint-config-ts": "workspace:typescript",
+    "eslint": "^8.17.0",
+    "typescript": "^4.7.3"
+  }
+}

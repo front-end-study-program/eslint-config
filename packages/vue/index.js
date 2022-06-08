@@ -1,11 +1,16 @@
 module.exports = {
   extends: [
-    "plugin:vue/vue3-recommended" // vue3 社区默认规则
+    "plugin:vue/vue3-recommended", // vue3 社区默认规则
+    "@sea/eslint-config-ts"
   ],
-  parser: "vue-eslint-parser", // 针对vue文件的解析器，默认是Espree解析器
-  parserOptions: {
-    vueFeatures: {
-      filter: false, // 用来指定vue过滤器语法是否在模版中生效
+  // 设置覆盖不同文件的解析器配置
+  overrides: [
+    {
+      files: ["*.vue"],
+      parser: "vue-eslint-parser", // 针对vue文件的解析器，默认是Espree解析器
+      parserOptions: {
+        parser: "@typescript-eslint/parser" // 针对vue文件中typescript语法的解析器
+      }
     }
-  },
+  ]
 }

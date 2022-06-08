@@ -7,5 +7,10 @@
 
   通过 pnpm 工作空间的特性，我们可以在本地链接到对应的包来验证配置是否生效。发布之后 workspace 会自动转换成发布的版本包
 
-  1.配置 pnpm-workspace.yaml 或者 .npmrc 文件来指定工作空间的目录
+  1.配置 pnpm-workspace.yaml 或者 .npmrc 文件来指定工作空间的目录</br>
   2.在 package.json 文件中以 workspace:* 来引用对应的包
+
+## TODO
+
+ 1. eslint-plugin-import 集成
+ 2. eslint-plugin-react 集成
