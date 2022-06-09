@@ -2,6 +2,7 @@
 class Parent {
   constructor () {
     this.name = 'parent'
+    this.a = 'user'
   }
 }
 

@@ -1,17 +1,25 @@
 {
-  "name": "@sea/eslint-config-vue",
+  "name": "@study-sea/eslint-config-vue",
   "version": "0.0.1",
   "description": "eslint config for typescript vue3",
   "main": "index.js",
+  "scripts": {
+    "release": "npm publish --access=public"
+  },
   "author": "眼圈发黑 <1449826851@qq.com>",
+  "keywords": [
+    "eslint",
+    "eslint-config-vue"
+  ],
   "files": [
     "index.js",
     "package.json",
-    "README.md"
+    "README.md",
+    "pnpm-lock.yaml"
   ],
   "license": "MIT",
   "dependencies": {
-    "@sea/eslint-config-ts": "workspace:typescript",
+    "@study-sea/eslint-config-ts": "workspace:typescript",
     "@typescript-eslint/parser": "^5.27.1",
     "eslint-plugin-vue": "^9.0.1",
     "vue-eslint-parser": "^9.0.2"

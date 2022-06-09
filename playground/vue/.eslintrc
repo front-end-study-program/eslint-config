@@ -1,5 +1,5 @@
 {
-  "extends": "@sea/eslint-config-vue",
+  "extends": "@study-sea/eslint-config-vue",
   "rules": {
     "vue/no-v-html": "off"
   }

@@ -1,17 +1,25 @@
 {
-  "name": "@sea/eslint-config-ts",
+  "name": "@study-sea/eslint-config-ts",
   "version": "0.0.1",
   "description": "eslint rules for typescript",
   "main": "index.js",
+  "scripts": {
+    "release": "npm publish --access=public"
+  },
   "keywords": [
+    "eslint",
+    "eslint-config-ts"
+  ],
+  "files": [
     "index.js",
     "package.json",
-    "README.md"
+    "README.md",
+    "pnpm-lock.yaml"
   ],
   "author": "眼圈发黑 <1449826851@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "@sea/eslint-config-basic": "workspace:basic",
+    "@study-sea/eslint-config-basic": "workspace:basic",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1"
   },

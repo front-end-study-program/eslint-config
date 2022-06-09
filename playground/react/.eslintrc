@@ -1,3 +1,3 @@
 {
-  "extends": "@sea/eslint-config-react"
+  "extends": "@study-sea/eslint-config-react"
 }

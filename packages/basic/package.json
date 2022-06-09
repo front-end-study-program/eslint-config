@@ -1,10 +1,31 @@
 {
-  "name": "@sea/eslint-config-basic",
-  "version": "0.0.1",
+  "name": "@study-sea/eslint-config-basic",
+  "version": "0.0.3",
   "description": "eslint rules for basic",
   "main": "index.js",
   "author": "眼圈发黑 <1449826851@qq.com>",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config-basic"
+  ],
+  "files": [
+    "index.js",
+    "README.md",
+    "pnpm-lock.yaml",
+    "package.json"
+  ],
+  "scripts": {
+    "release": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-study-program/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/front-end-study-program/eslint-config/issues"
+  },
+  "homepage": "https://github.com/front-end-study-program/eslint-config#readme",
   "dependencies": {
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",

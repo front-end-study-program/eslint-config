@@ -1,6 +1,6 @@
-# @sea/eslint-config-ts
+# @study-sea/eslint-config-ts
 
-``` pnpm i @sea/eslint-config-ts ```
+``` pnpm i @study-sea/eslint-config-ts ```
 
 自定义 ts 共享 eslint 配置
 
@@ -8,7 +8,7 @@
   // .eslintrc
   {
     "extends": [
-      "@sea/eslint-config-ts"
+      "@study-sea/eslint-config-ts"
     ]
   }
 ```

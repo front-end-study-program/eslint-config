@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     "plugin:vue/vue3-recommended", // vue3 社区默认规则
-    "@sea/eslint-config-ts"
+    "@study-sea/eslint-config-ts"
   ],
   // 设置覆盖不同文件的解析器配置
   overrides: [

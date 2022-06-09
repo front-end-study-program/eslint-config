@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@sea/eslint-config-react': workspace:react
+      '@study-sea/eslint-config-react': workspace:react
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
       '@vitejs/plugin-react': ^1.3.0
@@ -16,7 +16,7 @@ importers:
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
     devDependencies:
-      '@sea/eslint-config-react': link:../../packages/react
+      '@study-sea/eslint-config-react': link:../../packages/react
       '@types/react': 18.0.12
       '@types/react-dom': 18.0.5
       '@vitejs/plugin-react': 1.3.2
@@ -40,23 +40,23 @@ importers:
 
   ../../packages/react:
     specifiers:
-      '@sea/eslint-config-ts': workspace:typescript
+      '@study-sea/eslint-config-ts': workspace:typescript
       eslint: ^8.17.0
       eslint-plugin-react: ^7.30.0
     dependencies:
-      '@sea/eslint-config-ts': link:../typescript
+      '@study-sea/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.30.0_eslint@8.17.0
     devDependencies:
       eslint: 8.17.0
 
   ../../packages/typescript:
     specifiers:
-      '@sea/eslint-config-basic': workspace:basic
+      '@study-sea/eslint-config-basic': workspace:basic
       '@typescript-eslint/eslint-plugin': ^5.27.1
       '@typescript-eslint/parser': ^5.27.1
       eslint: ^8.17.0
     dependencies:
-      '@sea/eslint-config-basic': link:../basic
+      '@study-sea/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.27.1_043f48e0ee10c350c28cdede89899bc7
       '@typescript-eslint/parser': 5.27.1_eslint@8.17.0+typescript@4.7.3
     devDependencies:
@@ -64,13 +64,13 @@ importers:
 
   ../../packages/vue:
     specifiers:
-      '@sea/eslint-config-ts': workspace:typescript
+      '@study-sea/eslint-config-ts': workspace:typescript
       '@typescript-eslint/parser': ^5.27.1
       eslint: ^8.16.0
       eslint-plugin-vue: ^9.0.1
       vue-eslint-parser: ^9.0.2
     dependencies:
-      '@sea/eslint-config-ts': link:../typescript
+      '@study-sea/eslint-config-ts': link:../typescript
       '@typescript-eslint/parser': 5.27.1_eslint@8.17.0+typescript@4.7.3
       eslint-plugin-vue: 9.1.0_eslint@8.17.0
       vue-eslint-parser: 9.0.2_eslint@8.17.0
@@ -818,7 +818,7 @@ packages:
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
     dependencies:
-      ms: 2.1.2
+      ms: 2.1.3
     dev: false
 
   /debug/4.3.4:
@@ -1836,6 +1836,10 @@ packages:
 
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
+
+  /ms/2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+    dev: false
 
   /nanoid/3.3.4:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
