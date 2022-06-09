@@ -3,5 +3,8 @@
     "antfu",
     "npmrc",
     "pnpm"
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true 
+  }
 }

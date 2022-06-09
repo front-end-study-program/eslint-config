@@ -1,0 +1,3 @@
+{
+  "extends": "@sea/eslint-config-basic"
+}

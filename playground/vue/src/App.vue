@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const a = 1;
+const a = 1
 
 interface IUser {
   name: string
@@ -16,7 +16,7 @@ interface IUser {
 
 const user = ref<IUser>({
   name: '张三',
-  age: 0,
+  age: 0
 })
 
 </script>

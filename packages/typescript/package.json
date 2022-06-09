@@ -11,6 +11,7 @@
   "author": "眼圈发黑 <1449826851@qq.com>",
   "license": "MIT",
   "dependencies": {
+    "@sea/eslint-config-basic": "workspace:basic",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1"
   },
