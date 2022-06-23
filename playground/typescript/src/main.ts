@@ -7,6 +7,7 @@ export function test () {
 }
 
 class Parent {
+  public name: string
   constructor () {
     this.name = 'parent'
   }
@@ -16,5 +17,17 @@ class Child extends Parent {
   constructor () {
     super()
     this.name = 'child'
+  }
+}
+
+const obj = {
+  say () {
+    return 'hello'
+  }
+}
+
+const c = {
+  hello () {
+    return 'world'
   }
 }

@@ -1,14 +1,18 @@
-
-class Parent {
-  constructor () {
-    this.name = 'parent'
-    this.a = 'user'
-  }
+for (let index = 0; index < 10; index++) {
+  const a = 1
 }
 
-class Child extends Parent {
-  constructor () {
-    super()
-    this.name = 'child'
-  }
+Promise((res) => {
+  setTimeout(res, 100)
+})
+
+const a = 1
+
+const b = {
+  'hello-word': function () {
+    return 'hello'
+  },
+  a
 }
+
+b.hello()

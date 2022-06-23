@@ -5,6 +5,14 @@ import './App.css'
 function App () {
   const [count, setCount] = useState(0)
 
+  const obj = {
+    say () {
+      return 'hello'
+    }
+  }
+
+  obj.say()
+
   return (
     <div className="App">
       <header className="App-header">

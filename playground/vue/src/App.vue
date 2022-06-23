@@ -19,6 +19,14 @@ const user = ref<IUser>({
   age: 0
 })
 
+const s = {
+  say () {
+    return 'hello'
+  }
+}
+
+s.say()
+
 </script>
 
 <style scoped>
