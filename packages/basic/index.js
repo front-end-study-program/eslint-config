@@ -4,9 +4,11 @@ module.exports = {
   },
   reportUnusedDisableDirectives: true, // 报告未使用 eslint-disable 禁用注释
   extends: [
-    "eslint:recommended",
-    "standard",
+    'eslint:recommended',
+    'plugin:import/recommended',
+    'standard'
   ],
+  plugins: ['import'],
   rules: {
     // Possible Errors
     'no-debugger': 'off',
@@ -29,6 +31,10 @@ module.exports = {
     }],
     'prefer-arrow-callback': 'warn',
     'prefer-destructuring': 'warn',
+
+    // import
+    'import/order': 'warn',
+    'import/no-mutable-exports': 'warn'
   },
   ignorePatterns: ['dist/*', 'node_modules/*'] // 忽略文件或者目录，使用 glob 模式语法
 }

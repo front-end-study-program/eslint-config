@@ -1,4 +1,5 @@
-import { map, keys } from 'lodash-es'
+import { keys, map } from 'lodash-es'
+import { a } from './foo'
 
 for (let index = 0; index < 10; index++) {
   const a = 1
@@ -55,7 +56,7 @@ const { c } = foo
 
 Buffer.alloc(5)
 
-const bar = process.env
+const bar1 = process.env
 
 const foo1 = a => ({ bar: a })
 

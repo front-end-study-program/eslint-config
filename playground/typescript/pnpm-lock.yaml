@@ -5,10 +5,15 @@ importers:
   .:
     specifiers:
       '@study-sea/eslint-config-ts': workspace:typescript
+      '@types/lodash-es': ^4.17.6
       eslint: ^8.17.0
+      lodash-es: ^4.17.21
       typescript: ^4.7.3
+    dependencies:
+      lodash-es: 4.17.21
     devDependencies:
       '@study-sea/eslint-config-ts': link:../../packages/typescript
+      '@types/lodash-es': 4.17.6
       eslint: 8.17.0
       typescript: 4.7.3
 
@@ -128,6 +133,16 @@ packages:
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
+
+  /@types/lodash-es/4.17.6:
+    resolution: {integrity: sha512-R+zTeVUKDdfoRxpAryaQNRKk3105Rrgx2CFRClIgRGaqDTdjsm8h6IYA8ir584W3ePzkZfst5xIgDwYrlh9HLg==}
+    dependencies:
+      '@types/lodash': 4.14.182
+    dev: true
+
+  /@types/lodash/4.14.182:
+    resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
+    dev: true
 
   /@typescript-eslint/eslint-plugin/5.27.1_043f48e0ee10c350c28cdede89899bc7:
     resolution: {integrity: sha512-6dM5NKT57ZduNnJfpY81Phe9nc9wolnMCnknb1im6brWi1RYv84nbMS3olJa27B6+irUVV1X/Wb+Am0FjJdGFw==}
@@ -1121,6 +1136,10 @@ packages:
     dependencies:
       p-locate: 2.0.0
       path-exists: 3.0.0
+    dev: false
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
     dev: false
 
   /lodash.merge/4.6.2:
