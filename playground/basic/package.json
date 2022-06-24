@@ -9,7 +9,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.17.0",
-    "@study-sea/eslint-config-basic": "workspace:basic"
+    "@study-sea/eslint-config-basic": "workspace:basic",
+    "@types/node": "^18.0.0",
+    "eslint": "^8.17.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
   }
 }
