@@ -9,6 +9,12 @@ module.exports = {
     'standard'
   ],
   plugins: ['import'],
+  overrides: [
+    {
+      files: ["*.html", "**/*.html"],
+      plugins: ["html"], // 解析 html
+    }
+  ],
   rules: {
     // Possible Errors
     'no-debugger': 'off',
