@@ -9,6 +9,7 @@ function App () {
     say () {
       return 'hello'
     }
+
   }
 
   obj.say()
