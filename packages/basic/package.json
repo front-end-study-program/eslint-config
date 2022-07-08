@@ -1,6 +1,6 @@
 {
   "name": "@study-sea/eslint-config-basic",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "eslint rules for basic",
   "main": "index.js",
   "author": "眼圈发黑 <1449826851@qq.com>",
@@ -32,9 +32,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.2",
     "eslint-plugin-promise": "^6.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.17.0"
   },
   "peerDependencies": {
     "eslint": ">=6.0.0"
