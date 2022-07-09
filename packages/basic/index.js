@@ -39,7 +39,15 @@ module.exports = {
     'prefer-destructuring': 'warn',
 
     // import
-    'import/order': 'warn',
+    'import/order': ['warn', { 
+      "pathGroups": [
+        {
+          "pattern": "@/**",
+          "group": "external"
+        }
+      ],
+      "warnOnUnassignedImports": true
+    }],
     'import/no-mutable-exports': 'warn'
   },
   ignorePatterns: ['dist/**/*', 'node_modules/**/*'] // 忽略文件或者目录，使用 glob 模式语法
