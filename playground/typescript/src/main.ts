@@ -1,5 +1,5 @@
 import { map } from 'lodash-es'
-import { bar } from './bar'
+import { bar } from '@/bar'
 import { foo } from './foo'
 
 const a:any = '1'

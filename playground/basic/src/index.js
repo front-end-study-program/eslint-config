@@ -1,5 +1,5 @@
 import { keys, map } from 'lodash-es'
-import { a } from './foo'
+import { a } from '@/foo'
 
 for (let index = 0; index < 10; index++) {
   const a = 1
