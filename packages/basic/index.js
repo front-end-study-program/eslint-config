@@ -48,7 +48,8 @@ module.exports = {
       ],
       "warnOnUnassignedImports": true
     }],
-    'import/no-mutable-exports': 'warn'
+    'import/no-mutable-exports': 'warn',
+    'import/no-unresolved': 'off'
   },
   ignorePatterns: ['dist/**/*', 'node_modules/**/*'] // 忽略文件或者目录，使用 glob 模式语法
 }
