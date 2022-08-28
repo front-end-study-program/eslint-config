@@ -1,1 +1,3 @@
-export function bar () { return null }
+export function bar() {
+  return null
+}

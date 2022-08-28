@@ -6,9 +6,9 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
-    'standard'
+    "plugin:prettier/recommended"
   ],
-  plugins: ['import'],
+  plugins: ['import', 'prettier'],
   overrides: [
     {
       files: ["*.html", "**/*.html"],
@@ -49,7 +49,18 @@ module.exports = {
       "warnOnUnassignedImports": true
     }],
     'import/no-mutable-exports': 'warn',
-    'import/no-unresolved': 'off'
+    'import/no-unresolved': 'off',
+
+    // prettier
+    "prettier/prettier": [
+      "error",
+      {
+        semi: false, // 末尾分号
+        singleQuote: true, // 使用单引号
+        arrowParens: 'avoid', // 箭头函数括号
+        trailingComma: 'none', // 最后key不跟分号
+      }
+    ]
   },
   ignorePatterns: ['dist/**/*', 'node_modules/**/*'] // 忽略文件或者目录，使用 glob 模式语法
 }
