@@ -12,5 +12,8 @@ module.exports = {
         parser: "@typescript-eslint/parser" // 针对vue文件中typescript语法的解析器
       }
     }
-  ]
+  ],
+  rules: {
+    'vue/multi-word-component-names': 'off'
+  }
 }
