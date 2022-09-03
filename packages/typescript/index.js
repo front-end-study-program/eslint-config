@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     // 解决因缩进造成的 eslint 错误
     indent: 'off',
-    "@typescript-eslint/indent": ["warn", 2]
+    "@typescript-eslint/indent": ["warn", 2],
+    "@typescript-eslint/no-non-null-assertion": "off"
   }
 }
