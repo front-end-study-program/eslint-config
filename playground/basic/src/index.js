@@ -5,17 +5,17 @@ for (let index = 0; index < 10; index++) {
   const a = 1
 }
 
-Promise((res) => setTimeout(res, 100))
+Promise(res => setTimeout(res, 100))
 
 const b = {
   'hello-word': function () {
-    return new Promise((resolve) => setTimeout(resolve, 500))
+    return new Promise(resolve => setTimeout(resolve, 500))
   }
 }
 
 b.hello()
 
-function test (a, b) {
+function test(a, b) {
   if (a === 1) {
     return a
   }
@@ -30,10 +30,14 @@ function test (a, b) {
     h: 1
   }
   const { h } = object1Test
-  return (<div class="box" b="a">1</div>)
+  return (
+    <div class="box" b="a">
+      1
+    </div>
+  )
 }
 
-[].map(() => (1))
+;[].map(() => 1)
 
 switch (1) {
   case 1: {

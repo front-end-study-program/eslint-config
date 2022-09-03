@@ -1,6 +1,16 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 2022,
+    ecmaFeatures: {
+      jsx: true,
+    },
+    sourceType: 'module',
+  },
   env: {
     browser: true,
+    es2021: true,
+    es6: true,
+    node: true
   },
   reportUnusedDisableDirectives: true, // 报告未使用 eslint-disable 禁用注释
   extends: [
