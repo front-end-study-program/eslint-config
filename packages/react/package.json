@@ -1,6 +1,6 @@
 {
   "name": "@study-sea/eslint-config-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "eslint rules for react",
   "main": "index.js",
   "scripts": {
