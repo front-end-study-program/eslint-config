@@ -36,7 +36,6 @@ module.exports = {
     // Stylistic Issues
     'jsx-quotes': ['warn', 'prefer-double'],
     'max-len': 'warn',
-    'object-property-newline': ['warn', { 'allowAllPropertiesOnSameLine': false }],
 
     // es6
     'arrow-body-style': ['warn', 'as-needed'],
