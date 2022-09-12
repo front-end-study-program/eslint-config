@@ -68,6 +68,7 @@ module.exports = {
         singleQuote: true, // 使用单引号
         arrowParens: 'avoid', // 箭头函数括号
         trailingComma: 'none', // 最后key不跟分号
+        endOfLine: 'auto', // 结尾行号自动
       }
     ]
   },
