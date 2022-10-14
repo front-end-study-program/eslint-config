@@ -1,6 +1,6 @@
 {
   "name": "@study-sea/eslint-config-basic",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "eslint rules for basic",
   "main": "index.js",
   "author": "眼圈发黑 <1449826851@qq.com>",
@@ -30,6 +30,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-markdown": "^3.0.0",
     "eslint-plugin-n": "^15.2.2",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
