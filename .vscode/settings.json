@@ -12,6 +12,7 @@
     "typescriptreact",
     "vue",
     "html",
+    "markdown"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
